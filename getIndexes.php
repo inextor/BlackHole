@@ -42,7 +42,6 @@ try
 	$apiResponse->setData( $ids );
 	$apiResponse->setResult(1);
 	$apiResponse->output();
-	error_log('Exit');
 }
 catch(\Exception $e)
 {
